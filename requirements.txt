@@ -1,0 +1,5 @@
+Babel==2.13.1
+fpdf==1.7.2
+Pillow==10.1.0
+PyMySQL==1.1.0
+tkcalendar==1.6.1
