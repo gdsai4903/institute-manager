@@ -29,5 +29,5 @@ To install and run the Institute Manager on your system, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/institute-manager.git
+   git clone https://github.com/gdsai4903/institute-manager.git
    cd institute-manager
