@@ -34,3 +34,5 @@ header_font = ("Times", 19, "bold")
 button_font = ("arial", 13, "bold")
 home_button_font = ("arial", 20, "bold")
 login_button_font = ("arial", 20,)
+
+sql_pass = 'Abcde@123'

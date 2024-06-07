@@ -709,7 +709,7 @@ class Student_page:
             width=65,
         )
         
-        self.Search_name_in_table_entry.bind("<KeyRelease>", lambda x: self.Search_student())
+        # self.Search_name_in_table_entry.bind("<KeyRelease>", lambda x: self.Search_student())
         self.Search_btn = Button(
             self.Table_frame,
             text="Search",
@@ -873,7 +873,7 @@ class Student_page:
         host = "localhost"
         db = "institute_manager_db"
         user = "root"
-        password = ""
+        password = sql_pass
         try:
             self.connection = pymysql.connect(
                 host=host, db=db, user=user, password=password
@@ -1047,8 +1047,8 @@ class Student_page:
                 # print(self.temp_img1)
                 self.temp_img2 = ImageTk.PhotoImage(self.temp_img1)
                 self.Student_img.config(image=self.temp_img2)
-                print(self.Previous_img_name)
-                print(self.Student_image_name)
+                # print(self.Previous_img_name)
+                # print(self.Student_image_name)
 
             else:
                 messagebox.info(

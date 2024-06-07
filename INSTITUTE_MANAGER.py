@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
+from settings import sql_pass
 import pymysql
 
 
@@ -27,7 +28,7 @@ class InstituteManager:
         myhost = "localhost"
         mydb = "institute_manager_db"
         myuser = "root"
-        mypassword = ""
+        mypassword = sql_pass
         try:
             self.connection = pymysql.connect(
                 host=myhost, db=mydb, user=myuser, password=mypassword

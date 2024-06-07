@@ -20,7 +20,16 @@ SET time_zone = "+00:00";
 --
 -- Database: `institute_manager_db`
 --
+-- Dropping the database
+DROP DATABASE IF EXISTS institute_manager_db;
 
+-- Creating new database
+CREATE DATABASE IF NOT EXISTS institute_manager_db
+CHARSET='utf8mb4'
+COLLATE='utf8mb4_unicode_ci';
+
+-- Using new database
+USE institute_manager_db;
 -- --------------------------------------------------------
 
 --

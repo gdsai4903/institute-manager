@@ -356,7 +356,7 @@ class Courses_page:
         host = "localhost"
         db = "institute_manager_db"
         user = "root"
-        password = ""
+        password = sql_pass
         try:
             self.connection = pymysql.connect(
                 host=host, db=db, user=user, password=password
