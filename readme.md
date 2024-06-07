@@ -20,7 +20,7 @@ The Institute Manager is designed to streamline administrative tasks within an e
 
 ## Dependencies
 The Institute Manager requires the following dependencies:
-- Python 3.x
+- Python 
 - Tkinter (included with Python)
 - MySQL Connector/Python
 
